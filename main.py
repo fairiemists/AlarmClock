@@ -2,6 +2,10 @@ from alarm_clock import AlarmClock
 
 vanessas_clock = AlarmClock()
 
+vanessas_clock.display_clock_time()
+
+vanessas_clock.change_clock_time()
+
 vanessas_clock.change_alarm_time()
 
 vanessas_clock.turn_alarm_on()

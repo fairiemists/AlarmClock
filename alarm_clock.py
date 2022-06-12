@@ -11,7 +11,7 @@ class AlarmClock:
         self.display_clock_time()
 
     def display_clock_time(self):
-        print(f"The clock is currently set to " {self.clock_time})
+        print(f"The clock is currently set to " + self.clock_time)
 
 
     def change_alarm_time(self):
@@ -20,7 +20,7 @@ class AlarmClock:
 
 
     def display_alarm_time(self):
-        print(f"The alarm time is set to " {self.alarm_time})
+        print(f"The alarm time is set to " + self.alarm_time)
 
 
     def turn_alarm_on(self):
